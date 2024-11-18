@@ -26,7 +26,7 @@ class Control:
             self.tv.volumenUp()
 
     def volumenDown(self):
-        if self.tv.geTVolumen()> 0:
+        if self.tv.getVolumen()> 0:
             self.tv.volumenDown()
 
     def turnOn(self):
