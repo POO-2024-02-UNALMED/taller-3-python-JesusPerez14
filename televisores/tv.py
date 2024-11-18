@@ -11,7 +11,7 @@ class TV:
 
         pass
 
-    def getNumTv():
+    def getNumTV():
         return TV.numTV
     
     def setNumTV(numTV):
