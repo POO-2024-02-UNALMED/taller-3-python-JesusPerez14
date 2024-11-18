@@ -11,10 +11,10 @@ class TV:
 
         pass
 
-    def getNumTV():
+    def getNumTv():
         return TV.numTV
     
-    def setNumTV(numTV):
+    def setNumTv(numTV):
         TV.numTV = numTV
 
     def canalUp(self):
