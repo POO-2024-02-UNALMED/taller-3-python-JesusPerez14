@@ -302,5 +302,5 @@ def testVolumenEnlazar():
             tv6.getVolumen() == 6 and \
             tv7.getVolumen() == 4:
         ok = True
-
+    
     assert ok, "Hay un problema con los metodos y restricciones del cambio de canales del televisor desde el control"
