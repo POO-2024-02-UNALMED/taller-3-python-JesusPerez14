@@ -8,6 +8,7 @@ class TV:
         self.volumen = 1
         self._precio = 500
         self.control = ""
+        TV.numTV += 1
 
         pass
 
