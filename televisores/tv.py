@@ -61,7 +61,8 @@ class TV:
         self._marca = marca
 
     def setCanal(self,canal):
-        self.canal = canal
+        if canal > 0 and canal <= 120 and self.estado:
+            self.canal = canal
     
     def setPrecio(self,precio):
         self._precio = precio
